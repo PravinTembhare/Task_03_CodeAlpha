@@ -1,0 +1,42 @@
+i{
+       
+    background-color: white;
+    border-radius: 6vw;
+ font-size: 2.5vw;
+ padding: 0.5vw 0.9vw;
+ cursor: pointer;
+   }
+
+   .body{
+     background-color: black;
+   }
+   .SongName{
+     font-size: 2.7vw;
+     font-weight: 600;
+  
+
+   }
+  .img{
+   height:13vw;
+   width: 13vw;
+  object-fit: calc(100%-80%);
+   object-position: center;
+   border-radius: 50%;
+   border: 0.4vw white solid;
+   margin-bottom: 13vw;
+  }
+  .rotate{
+   -webkit-animation: spin 3s linear infinite;
+   -moz-animation: spin 3s linear infinite;
+   animation: spin 3s linear infinite;
+  }
+
+  @-webkit-keyframes spin{
+   100%{-webkit-transform: rotate(360deg);}
+  }
+  @-moz-keyframes spin{
+   100%{-webkit-transform: rotate(360deg);}
+  }
+  @keyframes spin{
+   100%{-webkit-transform:rotate(360deg)}
+  }
